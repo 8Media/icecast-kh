@@ -244,11 +244,9 @@
 
     <security>
         <chroot>0</chroot>
-        <!--
         <changeowner>
-            <user>nobody</user>
-            <group>nogroup</group>
+            <user>www-data</user>
+            <group>www-data</group>
         </changeowner>
-        -->
     </security>
 </icecast>
