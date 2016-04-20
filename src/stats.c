@@ -1597,6 +1597,7 @@ void stats_listener_to_xml (client_t *listener, xmlNodePtr parent)
 {
     const char *header;
     char buf[30];
+    const char *ip;
 
     xmlNodePtr node = xmlNewChild (parent, NULL, XMLSTR("listener"), NULL);
 
@@ -1604,7 +1605,8 @@ void stats_listener_to_xml (client_t *listener, xmlNodePtr parent)
     xmlSetProp (node, XMLSTR("id"), XMLSTR(buf));
     xmlNewChild (node, NULL, XMLSTR("ID"), XMLSTR(buf));
 
-    xmlNewChild (node, NULL, XMLSTR("IP"), XMLSTR(listener->connection.ip));
+    ip = httpp_getvar (listener->parser, "x-forwarded-for");
+    xmlNewChild (node, NULL, XMLSTR("IP"), XMLSTR(ip == NULL ? listener->connection.ip: ip));
 
     header = httpp_getvar (listener->parser, "user-agent");
     if (header && xmlCheckUTF8((unsigned char *)header))
