@@ -13,7 +13,7 @@
                 <div class="top-bar">
                     <div class="top-bar-left">
                         <ul class="menu">
-                            <li class="menu-text">ICECAST Powerd by MIHI7</li>
+                            <li class="menu-text">LiveOcean Media Server</li>
                             <li>
                                 <a href="admin/">Administration</a>
                             </li>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="large-4 columns">
-                        This ICECAST server is a part of MIHI7.com global radio destribution network. For more information please visit <a href="https://mihi7.com">mihi7.com</a>
+                        This ICECAST server is a part of LiveOcean global radio destribution network. For more information please visit <a href="https://liveocean.net">liveocean.net</a>
                     <hr/>
                     </div>
                     
@@ -188,7 +188,7 @@
                             <hr/>
                             Support icecast development at <a href="http://www.icecast.org">www.icecast.org</a>
                         <br/>
-                        MIHI7 Radio Destribution Network <a href="https://mihi7.com">www.mihi7.com</a>
+                        LiveOcean Radio Destribution Network <a href="https://liveocean.net">www.liveocean.net</a>
                         </div>
                     </div>
                 </div>

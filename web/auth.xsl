@@ -6,7 +6,7 @@
 <xsl:template match = "/icestats" >
 <html>
 <head>
-<title>Icecast Streaming Media Server</title>
+<title>LiveOcean Media Server</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 

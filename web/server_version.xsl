@@ -11,7 +11,7 @@
 	<div class="top-bar">
                     <div class="top-bar-left">
                         <ul class="menu">
-                            <li class="menu-text">ICECAST Powerd by MIHI7</li>
+                            <li class="menu-text">LiveOcean Media Server</li>
                             <li>
                                 <a href="admin/">Administration</a>
                             </li>
@@ -37,42 +37,15 @@
 			<tbody>
 				<xsl:for-each select="/icestats">
 				<tr>
-					<td>Location</td>
-					<td><xsl:value-of select="location" /></td>
-				</tr>
-				<tr>
 					<td>Admin</td>
-					<td><xsl:value-of select="admin" /></td>
-				</tr>
-				<tr>
-					<td>Host</td>
-					<td><xsl:value-of select="host" /></td>
+					<td>server_info@liveocean.net</td>
 				</tr>
 				<tr>
 					<td>Version</td>
 					<td><xsl:value-of select="server_id" /></td>
 				</tr>
 				</xsl:for-each>
-				<tr>
-					<td>Download</td>
-					<td><a href="http://icecast.org/download.php">icecast.org</a></td>
-				</tr>
-				<tr>
-					<td>Subversion</td>
-					<td><a href="http://icecast.org/svn.php">icecast.org/svn.php</a></td>
-				</tr>
-				<tr>
-					<td>Documentation</td>
-					<td><a href="http://icecast.org/docs.php">icecast.org/docs.php</a></td>
-				</tr>
-				<tr>
-					<td>Stream Directory</td>
-					<td><a href="http://dir.xiph.org/index.php">dir.xiph.org</a></td>
-				</tr>
-				<tr>
-					<td>Community</td>
-					<td><a href="http://icecast.org/community.php">icecast.org/community.php</a></td>
-				</tr>
+			
 			</tbody>
 		</table>
 	</div>
@@ -80,7 +53,7 @@
                             <hr/>
                             Support icecast development at <a href="http://www.icecast.org">www.icecast.org</a>
                         <br/>
-                        MIHI7 Radio Destribution Network <a href="https://mihi7.com">www.mihi7.com</a>
+                        LiveOcean Radio Destribution Network <a href="https://liveocean.net">www.liveocean.net</a>
                         </div>
                     </div>
                 </div>
